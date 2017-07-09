@@ -22,7 +22,7 @@ class BoggleBoard {
   }
 
   generateRandomAlphabet() {
-    return String.fromCharCode(65 + Math.floor(Math.random()*26+1));
+    return String.fromCharCode(65 + Math.floor(Math.random()*26));
   }
 }
 
