@@ -10,7 +10,7 @@ function boogleBoard(size) {
         let temp = []
 //        board.push([]);
         for (let col = 0; col < size; col++) {
-            let random = Math.floor(Math.random() * 26)
+            let random = Math.floor(Math.random() * 25)
             temp.push(alphabets[random]);
         }
         board.push(temp);
